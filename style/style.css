@@ -73,6 +73,21 @@ table > thead > tr > th:nth-child(2),
 #mainTable > tr > td:nth-child(-n+2) {
   text-align: left;
 }
+tr.arrows {
+  background-color: #eceeef;
+}
+tr.arrows:nth-child(1) i {
+  color: rgba(41,43,44,.8);
+}
+tr.arrows:nth-child(2) i {
+  color: rgba(41,43,44,.6);
+}
+tr.arrows:nth-child(3) i {
+  color: rgba(41,43,44,.4);
+}
+tr.arrows:nth-child(4) i {
+  color: rgba(41,43,44,.15);
+}
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 48em) {
   /* Remove the padding we set earlier */
