@@ -1,1 +1,75 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="header clearfix">
+            <nav>
+                <div class="nav nav-pills float-right">
+                    <form class="form-inline my-2 my-lg-0">
+                        <input id="query" class="form-control mr-sm-2" type="text" placeholder="Search">
+                        <button id="findButton" class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </div>
+            </nav>
+            <h3 class="text-muted">What a movie?</h3>
+        </div>
+
+        <div class="jumbotron">
+
+            <p class="lead">Cras justo odio</p>
+
+            <table  class="table table-sm table-inverse sortable">
+                <thead>
+                    <tr>
+                        <th data-type="id">ID</th>
+                        <th data-type="title">Title</th>
+                        <th data-type="lang">Language</th>
+                        <th data-type="index">Popularity Index</th>
+                        <th data-type="votes">Votes Count</th>
+                        <th data-type="date">Release Date</th>
+                    </tr>
+                </thead>
+                <tbody id="mainTable">
+                        <td><i class="fa fa-arrow-down" aria-hidden="true"></i></td>
+                        <td><i class="fa fa-arrow-down" aria-hidden="true"></i></td>
+                        <td><i class="fa fa-arrow-down" aria-hidden="true"></i></td>
+                        <td><i class="fa fa-arrow-down" aria-hidden="true"></i></td>
+                        <td><i class="fa fa-arrow-down" aria-hidden="true"></i></td>
+                        <td><i class="fa fa-arrow-down" aria-hidden="true"></i></td>
+                </tbody>
+            </table>
+
+            <div id='root-table'></div>
+        </div>
+
+
+        <footer class="footer">
+            <p>&copy; nice cinema</p>
+        </footer>
+
+    </div>
+    <!-- /container -->
+
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+    <script src="script/app.js"></script>    
+</body>
+
+</html>
