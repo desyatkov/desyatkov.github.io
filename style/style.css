@@ -88,6 +88,9 @@ tr.arrows:nth-child(3) i {
 tr.arrows:nth-child(4) i {
   color: rgba(41,43,44,.15);
 }
+th {
+  cursor: pointer;
+}
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 48em) {
   /* Remove the padding we set earlier */
