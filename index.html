@@ -1,12 +1,99 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>React App Setup</title>
-  </head>
-  <body>
-    <div id="root">
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>
+        Boost
+    </title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> 
+    
+    
+</head>
+<body>
+    <div class="page-header">
+        <div class="image">
+            <img src="http://boost.staging.naturalint.com/assets/icon-ni-logo-d7ee2637cc53477d3da02500b77aac22.png" alt="">
+        </div>
+        <ul>
+            <li class="selected">Sites</li>
+            <li>General</li>
+            <li>Rules</li>
+            <li>Admin</li>
+            <li>Developer</li>
+        </ul>
+
+        <ul class='user-name'>
+            <img src="https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg?sz=50" alt="">
+            <li >user name <i class="fa fa-angle-down"></i></li>
+        </ul>
     </div>
-  <script type="text/javascript" src="index_bundle.js"></script></body>
+    <div class="page-sidebar-menu">
+            <form class="sidebar-search sidebar-search-bordered siteSelectorForm ng-pristine ng-valid">
+                    <div class="input-group">
+                      <select ng-model="side.selected_site" ng-options="site as site.name for site in menuSites[activeRoot]" ng-change="sitesHasChanged()" class="form-control menuSiteSelector ng-pristine ng-valid ng-touched" data-ni-auto-id="sites-side-menu-selector"><option value="0" label="All Sites">All Sites</option><option value="1" label="Adult Dating FR">Adult Dating FR</option><option value="2" label="Adult Dating Mobile FR">Adult Dating Mobile FR</option><option value="3" label="Adult Dating Mobile US- QA">Adult Dating Mobile US- QA</option><option value="4" label="Antivirus CA">Antivirus CA</option><option value="5" label="Antivirus FR">Antivirus FR</option><option value="6" label="Antivirus Mobile US">Antivirus Mobile US</option><option value="7" label="Antivirus UK">Antivirus UK</option><option value="8" label="Antivirus US">Antivirus US</option><option value="9" selected="selected" label="Background Checks">Background Checks</option><option value="10" label="Background Checks Mobile">Background Checks Mobile</option><option value="11" label="Banking FR">Banking FR</option><option value="12" label="Banking FR Mobile">Banking FR Mobile</option><option value="13" label="Bingo Mobile UK">Bingo Mobile UK</option><option value="14" label="Bingo UK">Bingo UK</option><option value="15" label="Blackjack UK">Blackjack UK</option><option value="16" label="Blackjack mobile UK">Blackjack mobile UK</option><option value="17" label="Breakdown Cover UK">Breakdown Cover UK</option><option value="18" label="Business Loans">Business Loans</option><option value="19" label="Business Loans Mobile">Business Loans Mobile</option><option value="20" label="Business VoIP">Business VoIP</option><option value="21" label="Business VoIP Mobile">Business VoIP Mobile</option><option value="22" label="CCP Mobile">CCP Mobile</option><option value="23" label="Car Insurance FR">Car Insurance FR</option><option value="24" label="Car Loans">Car Loans</option><option value="25" label="Casino DK">Casino DK</option><option value="26" label="Casino Mobile DK">Casino Mobile DK</option><option value="27" label="Casino Mobile ES">Casino Mobile ES</option><option value="28" label="Casino Mobile IT">Casino Mobile IT</option><option value="29" label="Casino Mobile UK">Casino Mobile UK</option><option value="30" label="Casino UK">Casino UK</option><option value="31" label="Credit Card Processing US">Credit Card Processing US</option><option value="32" label="Credit Cards Experts">Credit Cards Experts</option><option value="33" label="Credit Repair Mobile US">Credit Repair Mobile US</option><option value="34" label="Credit Repair US">Credit Repair US</option><option value="35" label="Credit Reports UK">Credit Reports UK</option><option value="36" label="Credit Reports UK Mobile">Credit Reports UK Mobile</option><option value="37" label="Credit Reports US">Credit Reports US</option><option value="38" label="Credit Reports US Mobile">Credit Reports US Mobile</option><option value="39" label="Criminal Record Check">Criminal Record Check</option><option value="40" label="DATING AUSTRIA">DATING AUSTRIA</option><option value="41" label="DNA Testing Mobile">DNA Testing Mobile</option><option value="42" label="DNA-Testing">DNA-Testing</option><option value="43" label="Daiting Daily Magazine">Daiting Daily Magazine</option><option value="44" label="Dating AU">Dating AU</option><option value="45" label="Dating Apps AU mobile">Dating Apps AU mobile</option><option value="46" label="Dating Apps mobile US">Dating Apps mobile US</option><option value="47" label="Dating BR">Dating BR</option><option value="48" label="Dating CA">Dating CA</option><option value="49" label="Dating CA - FR - to be deleted">Dating CA - FR - to be deleted</option><option value="50" label="Dating Christian">Dating Christian</option><option value="51" label="Dating DE">Dating DE</option><option value="52" label="Dating DE SEO">Dating DE SEO</option><option value="53" label="Dating FR">Dating FR</option><option value="54" label="Dating Gay">Dating Gay</option><option value="55" label="Dating IT">Dating IT</option><option value="56" label="Dating Lesbian">Dating Lesbian</option><option value="57" label="Dating Mobile AU">Dating Mobile AU</option><option value="58" label="Dating Mobile BR">Dating Mobile BR</option><option value="59" label="Dating Mobile CA">Dating Mobile CA</option><option value="60" label="Dating Mobile Christian">Dating Mobile Christian</option><option value="61" label="Dating Mobile DE">Dating Mobile DE</option><option value="62" label="Dating Mobile FR">Dating Mobile FR</option><option value="63" label="Dating Mobile Gay">Dating Mobile Gay</option><option value="64" label="Dating Mobile IT">Dating Mobile IT</option><option value="65" label="Dating Mobile Lesbian">Dating Mobile Lesbian</option><option value="66" label="Dating Mobile NL">Dating Mobile NL</option><option value="67" label="Dating Mobile Senior">Dating Mobile Senior</option><option value="68" label="Dating Mobile UK">Dating Mobile UK</option><option value="69" label="Dating Mobile US">Dating Mobile US</option><option value="70" label="Dating NL">Dating NL</option><option value="71" label="Dating Senior">Dating Senior</option><option value="72" label="Dating UK">Dating UK</option><option value="73" label="Dating US">Dating US</option><option value="74" label="Debit Cards FR">Debit Cards FR</option><option value="75" label="Debit Cards FR_Mobile">Debit Cards FR_Mobile</option><option value="76" label="Debt Consolidation">Debt Consolidation</option><option value="77" label="Debt Consolidation Mobile">Debt Consolidation Mobile</option><option value="78" label="Diet US">Diet US</option><option value="79" label="Diet mobile">Diet mobile</option><option value="80" label="E-Commerce Builders Mobile US">E-Commerce Builders Mobile US</option><option value="81" label="E-Commerce Builders US">E-Commerce Builders US</option><option value="82" label="Email Marketing UK">Email Marketing UK</option><option value="83" label="Email Marketing US">Email Marketing US</option><option value="84" label="FlowersQA">FlowersQA</option><option value="85" label="Free No Deposit Slots Mobile">Free No Deposit Slots Mobile</option><option value="86" label="Free no deposit slots UK">Free no deposit slots UK</option><option value="87" label="Gaming top10 Mob">Gaming top10 Mob</option><option value="88" label="Gaming top10 UK">Gaming top10 UK</option><option value="89" label="Home Security US">Home Security US</option><option value="90" label="Home Security mobile">Home Security mobile</option><option value="91" label="Home Warranty">Home Warranty</option><option value="92" label="Home Warranty Mobile">Home Warranty Mobile</option><option value="93" label="Hosting AU">Hosting AU</option><option value="94" label="Hosting CA">Hosting CA</option><option value="95" label="Hosting COM">Hosting COM</option><option value="96" label="Hosting COM Mobile">Hosting COM Mobile</option><option value="97" label="Hosting DE">Hosting DE</option><option value="98" label="Hosting FR">Hosting FR</option><option value="99" label="Hosting Mobile UK">Hosting Mobile UK</option><option value="100" label="Hosting UK">Hosting UK</option><option value="101" label="ID Theft">ID Theft</option><option value="102" label="IRA Mobile US">IRA Mobile US</option><option value="103" label="IRA US">IRA US</option><option value="104" label="Legacy Sites Content">Legacy Sites Content</option><option value="105" label="Life Insurance">Life Insurance</option><option value="106" label="Loans DE">Loans DE</option><option value="107" label="LoansGuide">LoansGuide</option><option value="108" label="Logo Design">Logo Design</option><option value="109" label="Meal Delivery">Meal Delivery</option><option value="110" label="Meal Delivery mobile">Meal Delivery mobile</option><option value="111" label="Medical Alerts">Medical Alerts</option><option value="112" label="Medical Alerts Mobile">Medical Alerts Mobile</option><option value="113" label="Mortgage US">Mortgage US</option><option value="114" label="Mortgages Mobile US">Mortgages Mobile US</option><option value="115" label="OLDtop10bestabtest">OLDtop10bestabtest</option><option value="116" label="Odds Mobile UK">Odds Mobile UK</option><option value="117" label="Online Storage">Online Storage</option><option value="118" label="Online Trading Mobile">Online Trading Mobile</option><option value="119" label="Online Trading US">Online Trading US</option><option value="120" label="POC Mobile - delete">POC Mobile - delete</option><option value="121" label="POS">POS</option><option value="122" label="POS Mobile">POS Mobile</option><option value="123" label="Payroll">Payroll</option><option value="124" label="Personal Loans">Personal Loans</option><option value="125" label="Personal Loans FR">Personal Loans FR</option><option value="126" label="Personal Loans FR Mobile">Personal Loans FR Mobile</option><option value="127" label="Personal Loans Mobile">Personal Loans Mobile</option><option value="128" label="Pet Insurance">Pet Insurance</option><option value="129" label="Pet Insurance Mobile">Pet Insurance Mobile</option><option value="130" label="Poker FR">Poker FR</option><option value="131" label="Poker Mobile UK">Poker Mobile UK</option><option value="132" label="Poker UK">Poker UK</option><option value="133" label="Psychic Reading">Psychic Reading</option><option value="134" label="Psychic Reading FR">Psychic Reading FR</option><option value="135" label="Psychic Reading FR Mobile">Psychic Reading FR Mobile</option><option value="136" label="Psychic Reading Mobile">Psychic Reading Mobile</option><option value="137" label="QATest_Mobile">QATest_Mobile</option><option value="138" label="Reverse Phone Lookup">Reverse Phone Lookup</option><option value="139" label="Roulette Mobile UK">Roulette Mobile UK</option><option value="140" label="Roulette UK">Roulette UK</option><option value="141" label="Slots Mobile UK">Slots Mobile UK</option><option value="142" label="Slots UK">Slots UK</option><option value="143" label="Slots UK - delete">Slots UK - delete</option><option value="144" label="Solar Panels">Solar Panels</option><option value="145" label="Sports Betting BE">Sports Betting BE</option><option value="146" label="Sports Betting FR">Sports Betting FR</option><option value="147" label="Sports Betting FR Mobile">Sports Betting FR Mobile</option><option value="148" label="Sports Betting Mobile AU">Sports Betting Mobile AU</option><option value="149" label="Sports Betting Mobile BE">Sports Betting Mobile BE</option><option value="150" label="Sports Betting Mobile DE">Sports Betting Mobile DE</option><option value="151" label="Sports Betting Mobile ES">Sports Betting Mobile ES</option><option value="152" label="Sports Betting Mobile IT">Sports Betting Mobile IT</option><option value="153" label="Sports Betting Mobile UK">Sports Betting Mobile UK</option><option value="154" label="Sports Betting UK">Sports Betting UK</option><option value="155" label="Student Loan">Student Loan</option><option value="156" label="Student Loan_mobile">Student Loan_mobile</option><option value="157" label="Tax Software mobile QA">Tax Software mobile QA</option><option value="158" label="Top10">Top10</option><option value="159" label="Top10.me">Top10.me</option><option value="160" label="Top10.me Mobile">Top10.me Mobile</option><option value="161" label="Trading Mobile">Trading Mobile</option><option value="162" label="Trading UK">Trading UK</option><option value="163" label="Umbrella">Umbrella</option><option value="164" label="Umbrella QA">Umbrella QA</option><option value="165" label="Unification">Unification</option><option value="166" label="VPN">VPN</option><option value="167" label="VPN DE">VPN DE</option><option value="168" label="VPN FR">VPN FR</option><option value="169" label="VPN Mobile">VPN Mobile</option><option value="170" label="VoIP Mobile UK">VoIP Mobile UK</option><option value="171" label="VoIP UK">VoIP UK</option><option value="172" label="WSB UK Mobile">WSB UK Mobile</option><option value="173" label="WSB US Mobile">WSB US Mobile</option><option value="174" label="Website Builders DE">Website Builders DE</option><option value="175" label="Website Builders FR">Website Builders FR</option><option value="176" label="Website Builders UK">Website Builders UK</option><option value="177" label="Website Builders US">Website Builders US</option><option value="178" label="Weightloss mobile">Weightloss mobile</option><option value="179" label="damages">damages</option><option value="180" label="damages2">damages2</option><option value="181" label="top10bestabtest.com">top10bestabtest.com</option><option value="182" label="~Accounting Software">~Accounting Software</option><option value="183" label="~Adult Dating DE">~Adult Dating DE</option><option value="184" label="~Adult Dating Mobile FR - To be deleted">~Adult Dating Mobile FR - To be deleted</option><option value="185" label="~Adult Dating UK">~Adult Dating UK</option><option value="186" label="~Adult Dating US">~Adult Dating US</option><option value="187" label="~Antivirus DE">~Antivirus DE</option><option value="188" label="~App Builders">~App Builders</option><option value="189" label="~Bottom10mistakes">~Bottom10mistakes</option><option value="190" label="~Business Cards">~Business Cards</option><option value="191" label="~Business Loans LeadGen">~Business Loans LeadGen</option><option value="192" label="~Business Loans LeadGen Mobile">~Business Loans LeadGen Mobile</option><option value="193" label="~DFS US">~DFS US</option><option value="194" label="~Dating Denmark">~Dating Denmark</option><option value="195" label="~Dating Mobile DK">~Dating Mobile DK</option><option value="196" label="~Domains">~Domains</option><option value="197" label="~E-Commerce Builders UK">~E-Commerce Builders UK</option><option value="198" label="~Email Marketing US - delete">~Email Marketing US - delete</option><option value="199" label="~Flowers Mobile QA">~Flowers Mobile QA</option><option value="200" label="~Free Credit Reports">~Free Credit Reports</option><option value="201" label="~Freelancer">~Freelancer</option><option value="202" label="~Home Warranty LeadGen">~Home Warranty LeadGen</option><option value="203" label="~Home Warranty LeadGen - delete">~Home Warranty LeadGen - delete</option><option value="204" label="~Hosting Cheap">~Hosting Cheap</option><option value="205" label="~Jobs US">~Jobs US</option><option value="206" label="~LLC Registration">~LLC Registration</option><option value="207" label="~Online Fax US">~Online Fax US</option><option value="208" label="~Payday Loans UK">~Payday Loans UK</option><option value="209" label="~Personal Loans FR LeadGen">~Personal Loans FR LeadGen</option><option value="210" label="~Project Management">~Project Management</option><option value="211" label="~Resume Builders">~Resume Builders</option><option value="212" label="~SSL">~SSL</option><option value="213" label="~Slots Mobile UK - To be deleted">~Slots Mobile UK - To be deleted</option><option value="214" label="~Stock Photos">~Stock Photos</option><option value="215" label="~Tax Software US">~Tax Software US</option><option value="216" label="~Web Conferencing">~Web Conferencing</option><option value="217" label="~Website Builders CA">~Website Builders CA</option><option value="218" label="~Wordpress Hosting">~Wordpress Hosting</option></select>
+                    </div>
+                  </form>
+    </div>
+
+    <div class="page-wraper">
+        <div class="page-bar">
+            <div class="breadcrambs"><i class="fa fa-th-list"></i> Sites > Background Checks</div>
+                <ul class="action">
+                    <li><i class="fa fa-bell-o" aria-hidden="true"></i>
+                        Push Notifications</li>
+                    <li><i class="fa fa-edit"></i> Content</li>
+                    <li><i class="fa fa-cog"></i> Settings</li>
+                    <li><i class="fa fa-magic"></i> Theme</li>
+                    <li><i class="fa fa-tachometer"></i> Feature</li>
+                    <li><i class="fa fa-tachometer"></i> Widget</li>
+                </ul>
+            </div>
+
+            
+            
+                
+
+            <div class="form">
+                <div class="header">
+                    Notification Generator
+                </div>
+                <div class="form-body">
+                    <div>
+                        <label class="control-label">Title</label>
+                        <input type="text" class="Title">
+                    </div>
+                    <div>
+                        <label class="control-label">Description</label>
+                        <input type="text" class="Title">
+                    </div>
+                    <div>
+                        <label class="control-label">Link</label>
+                        <input type="text" class="Title">
+                    </div>
+                    <div>
+                        <label class="control-label">Image Link</label>
+                        <input type="text" class="Title">
+                    </div>
+                </div>
+
+                <div class="btn">
+                        <button type="submit" class="btn btn-primary" >
+                            RESET
+                        </button>
+                        <button type="submit" class="green" >
+                            SEND
+                        </button>
+                        <button type="submit" class="white" >
+                                CANCEL
+                            </button>
+                    </div>
+            </div>
+        </div>
+        
+    </div>
+</body>
 </html>
