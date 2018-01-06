@@ -1,0 +1,851 @@
+body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote {
+	margin:0;
+	padding:0;
+	border-width:0;
+}
+body {
+	-epub-hyphens:auto;
+	margin: 0 auto;
+	max-width: 1225px;
+}
+div.Basic-Text-Frame {
+	border-style:solid;
+}
+table.Basic-Table {
+	border-collapse:collapse;
+	border-color:#000000;
+	border-style:solid;
+	border-width:1px;
+	margin-bottom:-4px;
+	margin-top:4px;
+}
+td.Basic-Table {
+	border-left-width:1px;
+	border-left-style:solid;
+	border-left-color:#000000;
+	border-top-width:1px;
+	border-top-style:solid;
+	border-top-color:#000000;
+	border-right-width:1px;
+	border-right-style:solid;
+	border-right-color:#000000;
+	border-bottom-width:1px;
+	border-bottom-style:solid;
+	border-bottom-color:#000000;
+	padding-top:4px;
+	padding-bottom:4px;
+	padding-left:4px;
+	padding-right:4px;
+	vertical-align:top;
+}
+p.Basic-Paragraph {
+	color:#000000;
+	font-family:"Adobe Hebrew", serif;
+	font-size:12px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.2;
+	margin-bottom:0;
+	margin-left:0;
+	margin-right:0;
+	margin-top:0;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:right;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+table.TableOverride-1 {
+	border-collapse:collapse;
+}
+td.CellOverride-1 {
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-left-color:#000000;
+	border-left-style:solid;
+	border-left-width:0px;
+	border-right-color:#000000;
+	border-right-style:solid;
+	border-right-width:0px;
+	border-top-color:#000000;
+	border-top-style:solid;
+	border-top-width:3px;
+	vertical-align:middle;
+}
+td.CellOverride-2 {
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-left-color:#000000;
+	border-left-style:solid;
+	border-left-width:0px;
+	border-right-color:#000000;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-top-color:#000000;
+	border-top-style:solid;
+	border-top-width:3px;
+	vertical-align:middle;
+}
+td.CellOverride-3 {
+	background-color:#c7eafb;
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-left-color:#000000;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-right-width:1px;
+	border-top-width:3px;
+	vertical-align:middle;
+}
+td.CellOverride-4 {
+	background-color:#c7eafb;
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-left-width:1px;
+	border-right-width:1px;
+	border-top-width:3px;
+	vertical-align:middle;
+}
+td.CellOverride-5 {
+	background-color:#c7eafb;
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-right-width:1px;
+	border-top-width:3px;
+	vertical-align:middle;
+}
+td.CellOverride-6 {
+	background-color:#c7eafb;
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-left-style:solid;
+	border-left-width:3px;
+	border-right-width:1px;
+	border-top-width:3px;
+	vertical-align:middle;
+}
+td.CellOverride-7 {
+	background-color:#c7eafb;
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-right-width:0px;
+	border-top-width:3px;
+	vertical-align:middle;
+}
+td.CellOverride-8 {
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-left-width:0px;
+	border-right-width:0px;
+	border-top-color:#000000;
+	border-top-style:solid;
+	border-top-width:1px;
+	vertical-align:middle;
+}
+td.CellOverride-9 {
+	border-bottom-width:1px;
+	border-left-width:0px;
+	border-right-color:#000000;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-top-color:#000000;
+	border-top-style:solid;
+	border-top-width:1px;
+	vertical-align:middle;
+}
+td.CellOverride-10 {
+	background-color:#c7eafb;
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-left-color:#000000;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-right-color:#000000;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-top-color:#000000;
+	border-top-style:solid;
+	border-top-width:1px;
+	vertical-align:middle;
+}
+td.CellOverride-11 {
+	background-color:#c7eafb;
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-left-color:#000000;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-right-color:#000000;
+	border-right-style:solid;
+	border-right-width:3px;
+	border-top-color:#000000;
+	border-top-style:solid;
+	border-top-width:1px;
+	vertical-align:middle;
+}
+td.CellOverride-12 {
+	background-color:#c7eafb;
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-left-color:#000000;
+	border-left-style:solid;
+	border-left-width:3px;
+	border-right-color:#000000;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-top-color:#000000;
+	border-top-style:solid;
+	border-top-width:1px;
+	vertical-align:middle;
+}
+td.CellOverride-13 {
+	border-bottom-width:1px;
+	border-left-width:0px;
+	border-right-width:0px;
+	border-top-color:#000000;
+	border-top-style:solid;
+	border-top-width:1px;
+	vertical-align:middle;
+}
+td.CellOverride-14 {
+	border-bottom-width:1px;
+	border-left-width:0px;
+	border-right-width:1px;
+	border-top-width:1px;
+	vertical-align:middle;
+}
+td.CellOverride-15 {
+	border-bottom-width:1px;
+	border-left-width:1px;
+	border-right-width:1px;
+	border-top-color:#000000;
+	border-top-style:solid;
+	border-top-width:1px;
+	vertical-align:middle;
+}
+td.CellOverride-16 {
+	border-bottom-width:1px;
+	border-left-width:1px;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-top-color:#000000;
+	border-top-style:solid;
+	border-top-width:1px;
+	vertical-align:middle;
+}
+td.CellOverride-17 {
+	border-bottom-width:1px;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-right-width:1px;
+	border-top-color:#000000;
+	border-top-style:solid;
+	border-top-width:1px;
+	vertical-align:middle;
+}
+td.CellOverride-18 {
+	border-bottom-width:1px;
+	border-left-width:1px;
+	border-right-style:solid;
+	border-right-width:3px;
+	border-top-color:#000000;
+	border-top-style:solid;
+	border-top-width:1px;
+	vertical-align:middle;
+}
+td.CellOverride-19 {
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-left-style:solid;
+	border-left-width:3px;
+	border-right-width:1px;
+	border-top-color:#000000;
+	border-top-style:solid;
+	border-top-width:1px;
+	vertical-align:middle;
+}
+td.CellOverride-20 {
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-left-width:1px;
+	border-right-width:1px;
+	border-top-color:#000000;
+	border-top-style:solid;
+	border-top-width:1px;
+	vertical-align:middle;
+}
+td.CellOverride-21 {
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-left-width:1px;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-top-color:#000000;
+	border-top-style:solid;
+	border-top-width:1px;
+	vertical-align:middle;
+}
+td.CellOverride-22 {
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-right-width:1px;
+	border-top-color:#000000;
+	border-top-style:solid;
+	border-top-width:1px;
+	vertical-align:middle;
+}
+td.CellOverride-23 {
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-left-width:1px;
+	border-right-width:0px;
+	border-top-color:#000000;
+	border-top-style:solid;
+	border-top-width:1px;
+	vertical-align:middle;
+}
+td.CellOverride-24 {
+	border-bottom-width:1px;
+	border-left-width:0px;
+	border-right-width:0px;
+	border-top-width:1px;
+	vertical-align:middle;
+}
+td.CellOverride-25 {
+	border-bottom-width:1px;
+	border-left-width:1px;
+	border-right-width:1px;
+	border-top-width:1px;
+	vertical-align:middle;
+}
+td.CellOverride-26 {
+	border-bottom-width:1px;
+	border-left-width:1px;
+	border-right-color:#000000;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-top-width:1px;
+	vertical-align:middle;
+}
+td.CellOverride-27 {
+	border-bottom-width:1px;
+	border-left-color:#000000;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-right-color:#000000;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-top-width:1px;
+	vertical-align:middle;
+}
+td.CellOverride-28 {
+	border-bottom-width:1px;
+	border-left-color:#000000;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-right-width:1px;
+	border-top-width:1px;
+	vertical-align:middle;
+}
+td.CellOverride-29 {
+	border-bottom-width:1px;
+	border-left-width:1px;
+	border-right-color:#000000;
+	border-right-style:solid;
+	border-right-width:3px;
+	border-top-width:1px;
+	vertical-align:middle;
+}
+td.CellOverride-30 {
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-left-color:#000000;
+	border-left-style:solid;
+	border-left-width:3px;
+	border-right-color:#000000;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-top-color:#000000;
+	border-top-style:solid;
+	border-top-width:1px;
+	vertical-align:middle;
+}
+td.CellOverride-31 {
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-left-color:#000000;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-right-color:#000000;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-top-color:#000000;
+	border-top-style:solid;
+	border-top-width:1px;
+	vertical-align:middle;
+}
+td.CellOverride-32 {
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-left-color:#000000;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-right-color:#000000;
+	border-right-style:solid;
+	border-right-width:0px;
+	border-top-color:#000000;
+	border-top-style:solid;
+	border-top-width:1px;
+	vertical-align:middle;
+}
+td.CellOverride-33 {
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-left-width:1px;
+	border-right-width:1px;
+	border-top-width:1px;
+	vertical-align:middle;
+}
+td.CellOverride-34 {
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-left-width:1px;
+	border-right-color:#000000;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-top-width:1px;
+	vertical-align:middle;
+}
+td.CellOverride-35 {
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-left-color:#000000;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-right-color:#000000;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-top-width:1px;
+	vertical-align:middle;
+}
+td.CellOverride-36 {
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-left-color:#000000;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-right-width:1px;
+	border-top-width:1px;
+	vertical-align:middle;
+}
+td.CellOverride-37 {
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-left-width:1px;
+	border-right-color:#000000;
+	border-right-style:solid;
+	border-right-width:3px;
+	border-top-width:1px;
+	vertical-align:middle;
+}
+td.CellOverride-38 {
+	border-bottom-width:1px;
+	border-left-width:1px;
+	border-right-color:#000000;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-top-color:#000000;
+	border-top-style:solid;
+	border-top-width:1px;
+	vertical-align:middle;
+}
+td.CellOverride-39 {
+	border-bottom-width:1px;
+	border-left-color:#000000;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-right-color:#000000;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-top-color:#000000;
+	border-top-style:solid;
+	border-top-width:1px;
+	vertical-align:middle;
+}
+td.CellOverride-40 {
+	border-bottom-width:1px;
+	border-left-color:#000000;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-right-width:1px;
+	border-top-color:#000000;
+	border-top-style:solid;
+	border-top-width:1px;
+	vertical-align:middle;
+}
+td.CellOverride-41 {
+	border-bottom-width:1px;
+	border-left-width:1px;
+	border-right-color:#000000;
+	border-right-style:solid;
+	border-right-width:3px;
+	border-top-color:#000000;
+	border-top-style:solid;
+	border-top-width:1px;
+	vertical-align:middle;
+}
+td.CellOverride-42 {
+	border-bottom-width:1px;
+	border-left-color:#000000;
+	border-left-style:solid;
+	border-left-width:3px;
+	border-right-color:#000000;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-top-color:#000000;
+	border-top-style:solid;
+	border-top-width:1px;
+	vertical-align:middle;
+}
+td.CellOverride-43 {
+	border-bottom-width:1px;
+	border-left-color:#000000;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-right-color:#000000;
+	border-right-style:solid;
+	border-right-width:0px;
+	border-top-color:#000000;
+	border-top-style:solid;
+	border-top-width:1px;
+	vertical-align:middle;
+}
+td.CellOverride-44 {
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-left-width:1px;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-top-width:1px;
+	vertical-align:middle;
+}
+td.CellOverride-45 {
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-right-width:1px;
+	border-top-width:1px;
+	vertical-align:middle;
+}
+td.CellOverride-46 {
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-left-width:1px;
+	border-right-style:solid;
+	border-right-width:3px;
+	border-top-width:1px;
+	vertical-align:middle;
+}
+td.CellOverride-47 {
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-left-style:solid;
+	border-left-width:3px;
+	border-right-width:1px;
+	border-top-width:1px;
+	vertical-align:middle;
+}
+td.CellOverride-48 {
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-left-width:1px;
+	border-right-width:0px;
+	border-top-width:1px;
+	vertical-align:middle;
+}
+td.CellOverride-49 {
+	border-bottom-width:1px;
+	border-left-width:0px;
+	border-right-color:#000000;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-top-width:1px;
+	vertical-align:middle;
+}
+td.CellOverride-50 {
+	border-bottom-width:1px;
+	border-left-color:#000000;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-right-color:#000000;
+	border-right-style:solid;
+	border-right-width:3px;
+	border-top-color:#000000;
+	border-top-style:solid;
+	border-top-width:1px;
+	vertical-align:middle;
+}
+td.CellOverride-51 {
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-left-width:0px;
+	border-right-width:1px;
+	border-top-width:1px;
+	vertical-align:middle;
+}
+td.CellOverride-52 {
+	border-bottom-width:1px;
+	border-left-width:0px;
+	border-right-width:1px;
+	border-top-color:#000000;
+	border-top-style:solid;
+	border-top-width:1px;
+	vertical-align:middle;
+}
+td.CellOverride-53 {
+	border-bottom-width:1px;
+	border-left-style:solid;
+	border-left-width:3px;
+	border-right-width:1px;
+	border-top-color:#000000;
+	border-top-style:solid;
+	border-top-width:1px;
+	vertical-align:middle;
+}
+td.CellOverride-54 {
+	border-bottom-width:1px;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-right-width:1px;
+	border-top-width:1px;
+	vertical-align:middle;
+}
+td.CellOverride-55 {
+	border-bottom-width:1px;
+	border-left-style:solid;
+	border-left-width:3px;
+	border-right-width:1px;
+	border-top-width:1px;
+	vertical-align:middle;
+}
+td.CellOverride-56 {
+	border-bottom-color:#000000;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-left-color:#000000;
+	border-left-style:solid;
+	border-left-width:3px;
+	border-right-color:#000000;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-top-width:1px;
+	vertical-align:middle;
+}
+td.CellOverride-57 {
+	border-bottom-width:3px;
+	border-left-width:0px;
+	border-right-width:0px;
+	border-top-width:1px;
+	vertical-align:middle;
+}
+td.CellOverride-58 {
+	border-bottom-width:3px;
+	border-left-width:0px;
+	border-right-width:1px;
+	border-top-width:1px;
+	vertical-align:middle;
+}
+td.CellOverride-59 {
+	border-bottom-width:3px;
+	border-left-width:1px;
+	border-right-width:1px;
+	border-top-width:1px;
+	vertical-align:middle;
+}
+td.CellOverride-60 {
+	border-bottom-width:3px;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-right-width:1px;
+	border-top-width:1px;
+	vertical-align:middle;
+}
+td.CellOverride-61 {
+	border-bottom-width:3px;
+	border-left-style:solid;
+	border-left-width:3px;
+	border-right-width:1px;
+	border-top-width:1px;
+	vertical-align:middle;
+}
+p.ParaOverride-1 {
+	text-align:left;
+}
+p.ParaOverride-2 {
+	text-align:center;
+}
+span.CharOverride-1 {
+	color:#000c78;
+	font-family:Nudista, sans-serif;
+	font-size:20px;
+	font-style:normal;
+	font-weight:normal;
+}
+span.CharOverride-2 {
+	font-family:Nudista, sans-serif;
+	font-size:10px;
+	font-style:normal;
+	font-weight:bold;
+}
+span.CharOverride-3 {
+	font-family:Nudista, sans-serif;
+	font-style:normal;
+	font-weight:bold;
+}
+span.CharOverride-4 {
+	font-family:Nudista, sans-serif;
+	font-size:11px;
+	font-style:normal;
+	font-weight:bold;
+}
+span.CharOverride-5 {
+	color:#fda100;
+	font-family:Nudista, sans-serif;
+	font-style:normal;
+	font-weight:bold;
+}
+span.CharOverride-6 {
+	color:#009a2d;
+	font-family:Nudista, sans-serif;
+	font-style:normal;
+	font-weight:bold;
+}
+span.CharOverride-7 {
+	color:#009a2d;
+	font-family:Nudista, sans-serif;
+	font-size:11px;
+	font-style:normal;
+	font-weight:bold;
+}
+span.CharOverride-8 {
+	color:#dd4b39;
+	font-family:Nudista, sans-serif;
+	font-size:11px;
+	font-style:normal;
+	font-weight:bold;
+}
+span.CharOverride-9 {
+	color:#fda100;
+	font-family:Nudista, sans-serif;
+	font-size:11px;
+	font-style:normal;
+	font-weight:bold;
+}
+span.CharOverride-10 {
+	font-family:Nudista, sans-serif;
+	font-size:11px;
+	font-style:normal;
+	font-weight:500;
+}
+span.CharOverride-11 {
+	font-family:Nudista, sans-serif;
+	font-style:normal;
+	font-weight:500;
+}
+span.CharOverride-12 {
+	color:#000c78;
+	font-family:Nudista, sans-serif;
+	font-size:13px;
+	font-style:normal;
+	font-weight:bold;
+}
+span.CharOverride-13 {
+	font-family:Nudista, sans-serif;
+	font-size:13px;
+	font-style:normal;
+	font-weight:normal;
+}
+td._idGenCellOverride-1 {
+	border-right-color:#000000;
+	border-right-style:solid;
+	border-right-width:1px;
+}
+td._idGenCellOverride-2 {
+	border-right-color:#000000;
+	border-right-style:solid;
+	border-right-width:3px;
+}
+td._idGenCellOverride-3 {
+	border-right-color:#000000;
+	border-right-style:solid;
+	border-right-width:0px;
+}
+col._idGenTableRowColumn-1 {
+	width:23px;
+}
+col._idGenTableRowColumn-2 {
+	width:122px;
+}
+col._idGenTableRowColumn-3 {
+	width:60px;
+}
+tr._idGenTableRowColumn-4 {
+	min-height:30px;
+}
+tr._idGenTableRowColumn-5 {
+	background-color:#e6e6e6;
+	min-height:30px;
+}
+tr._idGenTableRowColumn-6 {
+	background-color:#e6e6e6;
+	min-height:43px;
+}
+tr._idGenTableRowColumn-7 {
+	min-height:43px;
+}
+#_idContainer000,
+#_idContainer002 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
